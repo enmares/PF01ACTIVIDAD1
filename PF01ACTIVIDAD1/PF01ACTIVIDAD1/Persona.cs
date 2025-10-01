@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,5 +24,11 @@ namespace PF01ACTIVIDAD1
             Edad = edad;
             EstadoCivil = eCivil;
         }
+        public string MostrarDatos()
+        {
+            return Nombre + " Edad: " + Edad + " Estado civil: " + EstadoCivil;
+        }
+
+       
     }
 }
