@@ -28,7 +28,14 @@ namespace PF01ACTIVIDAD1
         {
             return Nombre + " Edad: " + Edad + " Estado civil: " + EstadoCivil;
         }
-
+        public void SetNombre(string nombre)
+        {
+            Nombre = nombre;
+        }
+        public string GetNombre()
+        {
+            return Nombre;
+        }
        
     }
 }

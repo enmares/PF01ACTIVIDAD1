@@ -8,6 +8,7 @@
 
             Persona Tonio = new Persona("Toni", 21, EstadoCivil.SOLTERO);
             Console.WriteLine(Tonio.MostrarDatos());
+            Tonio.SetNombre("Enrique");
         }
     }
 }
